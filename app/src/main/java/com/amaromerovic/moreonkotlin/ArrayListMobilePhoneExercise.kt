@@ -97,10 +97,4 @@ class Contact(name: String, phoneNumber: String) {
         this.name = name
         this.phoneNumber = phoneNumber
     }
-
-    fun createContact(name: String, phoneNumber: String): Contact {
-        return Contact(name, phoneNumber)
-    }
-
-
 }
