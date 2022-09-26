@@ -23,7 +23,7 @@ fun readInteger(): Int {
 
 fun readElements(element: Int): IntArray {
     println("You need to enter $element numbers")
-    var i = 0;
+    var i = 0
     val array = IntArray(element)
 
     while (i < array.size) {
